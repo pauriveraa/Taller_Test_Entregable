@@ -28,7 +28,7 @@ public class App
         Long result = calculator.sum( number1, number2 );
 
         System.out.println( number1 + " + " + number2 + " = " + result );
-        
+
     }
 
 }

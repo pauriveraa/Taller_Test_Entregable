@@ -9,9 +9,9 @@ public class BasicCalculator {
         logger.info( "Summing {} + {}", number1, number2 );
         return number1 + number2;
     }
-    public Long res(Long number11, Long number21) {
-        logger.info( "Subtracting {} - {}", number11, number21 );
-        return number11 - number21;
+    public Long res(Long number1, Long number2) {
+        logger.info( "Subtracting {} - {}", number1, number2 );
+        return number1 - number2;
     }
     public Long mul(Long number1, Long number2) {
         logger.info( "Multiplying {} * {}", number1, number2 );
